@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s1.css">
+</head>
+<body>
+    <form action="#">
+        <div class="container">
+            <h2 class="main_head">Form</h2>
+        <hr>
+        <h3 class="sub_head">Contact Information</h3>
+        <div class="nam">Name: <input type="text" name="name" placeholder="Enter name"></div>
+        <fieldset>
+            <legend>Gender</legend>
+            <div class="gen">
+                Male <input type="radio" name="gender" id="m">
+                Female <input type="radio" name="gender" id="f">
+            </div>
+        </fieldset>
+        <div class="add">
+            Address:
+            <textarea name="address" id="" cols="90" rows="10" placeholder="Enter your Address"></textarea>
+        </div>
+        <div class="pin">
+            Pin Code:
+            <input type="number" name="pincode" id="pincode" placeholder="Pin Code">
+        </div>
+        <div class="mail">
+            Mail Id:
+            <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+        </div>
+        <div class="num">
+            PhoneNo:
+            <input type="number" name="number" id="number" placeholder="1234567890">
+        </div>
+        <hr>
+        <h3 class="sub_head">Payment</h3>
+        
+            <div class="pay">
+                Card Type:
+                <select name="card" id="card">
+                    <option value="">---Select a Card---</option>
+                    <option value="visa">VISA</option>
+                    <option value="master">Master</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </div>
+            <div class="card">
+                Card Number: <input type="number" name="card_no" id="card_no">
+            </div>
+            <div class="date">Expiration Date:
+                <input type="date" name="datee" id="datee">
+            </div>
+            <div class="cvv">
+                CVV: <input type="password" name="cvv_no" id="cvv_no">
+            </div>
+            <br>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+        </div>
+        
+    </form>
+</body>
+</html>
